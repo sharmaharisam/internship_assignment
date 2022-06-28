@@ -1,0 +1,64 @@
+body{
+    background-color: #fff;
+    margin-top: 50px;
+}
+/* styles for the parent container */
+#container{
+    margin: auto;
+    /* margin-left: 20%; */
+    display: flex;
+    width: 800px;   
+    justify-content: center;
+}
+
+/* styles for the left and right side divs */
+#left-side{
+    flex: 1.5;
+}
+#right-side{
+    flex: 2.5;
+    height: 600px;
+    text-align: center;
+}
+
+
+/* styles for the list items */
+ul{
+    list-style: none;
+    margin-top: 30px;
+}
+li{
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-left: 60px;
+    position: relative;
+    /* background-color: bisque; */
+}
+.active-list-item{
+    background-color: #334AFF;
+    color: #fff;
+}
+.small-img{
+    width: 40px;
+    height: 45px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    border-radius: 5px;
+}
+
+/* styles for the images and input box*/
+#display-image{
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+}
+#show-name{
+    width: 90%;
+    border: none;
+    color: grey;
+    font-size: 16px;
+    text-align: center;
+}
